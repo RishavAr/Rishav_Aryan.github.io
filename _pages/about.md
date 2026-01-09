@@ -1,13 +1,12 @@
 ---
 layout: single
-title: "👋 About Me"
+title: "About"
 permalink: /
 author_profile: true
 redirect_from:
   - /about/
   - /about.html
 ---
-
 
 ## 
 I am an **AI / ML Researcher & Engineer** working at the intersection of
