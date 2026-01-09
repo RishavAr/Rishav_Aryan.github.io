@@ -1,7 +1,15 @@
+---
+layout: single
+title: "👋 About Me"
+permalink: /
+author_profile: true
+redirect_from:
+  - /about/
+  - /about.html
+---
 
 
-
-## 👋 About Me
+## 
 I am an **AI / ML Researcher & Engineer** working at the intersection of
 **representation learning, attention mechanisms, and adaptive language models**.
 My work focuses on understanding *how* modern models learn and reason, and
