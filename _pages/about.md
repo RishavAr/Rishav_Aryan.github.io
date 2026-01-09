@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-## 
+
 I am an **AI / ML Researcher & Engineer** working at the intersection of
 **representation learning, attention mechanisms, and adaptive language models**.
 My work focuses on understanding *how* modern models learn and reason, and
