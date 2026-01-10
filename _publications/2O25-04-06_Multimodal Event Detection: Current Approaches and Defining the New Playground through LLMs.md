@@ -10,8 +10,11 @@ excerpt: "We present a systematic study of multimodal disaster event detection o
 
 ---
 
+🟢 **Presented @ NLDB 2025**
 
+📄 [Paper]({{ page.paperurl }}) · 💻 [Code]({{ page.codeurl }}) 
 
-[📄 Paper](https://arxiv.org/pdf/2505.10836) · [💻 Code](https://github.com/thegtagamer/multimodal-research)
+**Keywords:** Multimodal Learning, Vision–Language Models, Disaster Detection
+
 
 
