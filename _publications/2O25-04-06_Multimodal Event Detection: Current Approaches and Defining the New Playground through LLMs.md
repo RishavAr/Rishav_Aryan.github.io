@@ -8,10 +8,10 @@ paperurl: "https://arxiv.org/pdf/2505.10836"
 codeurl: "https://github.com/thegtagamer/multimodal-research"
 excerpt: "We present a systematic study of multimodal disaster event detection on social media, comparing supervised fusion models with LLM-based approaches. While LLMs show robustness to noisy language, supervised multimodal systems remain more reliable for structured event classification."
 
-[📄 Paper](https://arxiv.org/pdf/2505.10836) · [💻 Code](https://github.com/thegtagamer/multimodal-research)
 ---
 
 
 
+[📄 Paper](https://arxiv.org/pdf/2505.10836) · [💻 Code](https://github.com/thegtagamer/multimodal-research)
 
 
