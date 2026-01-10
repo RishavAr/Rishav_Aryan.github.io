@@ -5,61 +5,118 @@ permalink: /publications/
 author_profile: true
 ---
 
-{% if site.author.googlescholar %}
-  <div class="wordwrap">
-    You can also find my articles on <a href="{{ site.author.googlescholar }}">my Google Scholar profile</a>.
-  </div>
-{% endif %}
-
 {% include base_path %}
 
-<h2>🟢 Peer-Reviewed & Accepted</h2><hr />
-{% assign any = false %}
+{% if site.author.googlescholar %}
+<p class="wordwrap">
+  You can also find my articles on
+  <a href="{{ site.author.googlescholar }}" target="_blank" rel="noopener noreferrer">my Google Scholar profile</a>.
+</p>
+{% endif %}
+
+<h2>🟢 Peer-Reviewed & Accepted</h2>
+<hr />
+
+{% assign has_items = false %}
 {% for post in site.publications reversed %}
-  {% if post.status == "accepted" %}
-    {% assign any = true %}
+  {% if post.category == "peer_reviewed" %}
+    {% assign has_items = true %}
     {% include archive-single.html %}
   {% endif %}
 {% endfor %}
-{% unless any %}
+{% unless has_items %}
   <p><em>No peer-reviewed publications listed yet.</em></p>
 {% endunless %}
 
-<br/>
+<br />
 
-<h2>🟡 Under Review / Submitted</h2><hr />
-{% assign any = false %}
+<h2>🟡 Under Review / Submitted</h2>
+<hr />
+
+{% assign has_items = false %}
 {% for post in site.publications reversed %}
-  {% if post.status == "under-review" %}
-    {% assign any = true %}
+  {% if post.category == "under_review" %}
+    {% assign has_items = true %}
     {% include archive-single.html %}
   {% endif %}
 {% endfor %}
-{% unless any %}
+{% unless has_items %}
   <p><em>No under-review manuscripts listed yet.</em></p>
 {% endunless %}
 
-<br/>
+<br />
 
-<h2>🔵 Research in Progress</h2><hr />
-{% assign any = false %}
+<h2>🔵 Research in Progress</h2>
+<hr />
+
+{% assign has_items = false %}
 {% for post in site.publications reversed %}
-  {% if post.status == "in-progress" %}
-    {% assign any = true %}
+  {% if post.category == "in_progress" %}
+    {% assign has_items = true %}
     {% include archive-single.html %}
   {% endif %}
 {% endfor %}
-{% unless any %}
+{% unless has_items %}
   <p><em>No ongoing work listed yet.</em></p>
 {% endunless %}
+---
+layout: archive
+title: "Publications"
+permalink: /publications/
+author_profile: true
+---
 
-<br/>
+{% include base_path %}
 
-<h2>🔁 Reproductions & Research Notes (Weekly)</h2><hr />
-<p>
-  I release weekly paper-to-code reproductions and technical insights on influential NeurIPS/ICML/ICLR works.
-  These are intentionally kept separate from original research publications.
+{% if site.author.googlescholar %}
+<p class="wordwrap">
+  You can also find my articles on
+  <a href="{{ site.author.googlescholar }}" target="_blank" rel="noopener noreferrer">my Google Scholar profile</a>.
 </p>
-<p>
-  → See: <a href="/research-notes/">Research Notes</a>
-</p>
+{% endif %}
+
+<h2>🟢 Peer-Reviewed & Accepted</h2>
+<hr />
+
+{% assign has_items = false %}
+{% for post in site.publications reversed %}
+  {% if post.category == "peer_reviewed" %}
+    {% assign has_items = true %}
+    {% include archive-single.html %}
+  {% endif %}
+{% endfor %}
+{% unless has_items %}
+  <p><em>No peer-reviewed publications listed yet.</em></p>
+{% endunless %}
+
+<br />
+
+<h2>🟡 Under Review / Submitted</h2>
+<hr />
+
+{% assign has_items = false %}
+{% for post in site.publications reversed %}
+  {% if post.category == "under_review" %}
+    {% assign has_items = true %}
+    {% include archive-single.html %}
+  {% endif %}
+{% endfor %}
+{% unless has_items %}
+  <p><em>No under-review manuscripts listed yet.</em></p>
+{% endunless %}
+
+<br />
+
+<h2>🔵 Research in Progress</h2>
+<hr />
+
+{% assign has_items = false %}
+{% for post in site.publications reversed %}
+  {% if post.category == "in_progress" %}
+    {% assign has_items = true %}
+    {% include archive-single.html %}
+  {% endif %}
+{% endfor %}
+{% unless has_items %}
+  <p><em>No ongoing work listed yet.</em></p>
+{% endunless %}
