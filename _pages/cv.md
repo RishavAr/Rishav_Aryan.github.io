@@ -7,7 +7,7 @@ author_profile: true
 
 <div class="cv-download-links">
   <a href="/files/cv.pdf" class="btn btn--primary">Download CV (PDF)</a>
-  <a href="/cv-json/" class="btn btn--inverse">View Web CV</a>
+
 </div>
 
 
