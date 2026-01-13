@@ -1,8 +1,8 @@
 ---
 title: "iOS World Agents – Embodied AI Evaluation Framework"
 collection: portfolio
-date: 2025-01-01
-share: false
+date: 2025-05-20
+share: false 
 excerpt: "Embodied evaluation framework for LLM-driven agents executing real iOS actions in simulator environments."
 github: "https://github.com/RishavAr/ios_world_agents"
 
