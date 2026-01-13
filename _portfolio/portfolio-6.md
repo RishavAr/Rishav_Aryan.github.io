@@ -2,6 +2,7 @@
 title: "Performance Analysis of Machine Learning Models on Amazon Review Data"
 collection: portfolio
 date: 2023-08-01
+share: false
 excerpt: "Comparative study of ML models for sentiment classification on large-scale Amazon reviews."
 github: "https://github.com/RishavAr/Comparing_ML_Models_on_Amazon_Data"
 tech: "Python, SQL, Machine Learning"
