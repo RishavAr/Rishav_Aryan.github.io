@@ -68,16 +68,10 @@ theoretical insights in real execution constraints.
 ---
 
 ## 🔁 Weekly Research & Implementation Releases
-I maintain a **weekly research-to-implementation cadence**, where I:
-- Study recent **NeurIPS / ICML / ICLR papers**
-- Publish structured technical breakdowns
-- Implement ideas **end-to-end from first principles**
-- Release code, experiments, and insights publicly
-
+I maintain a **weekly research-to-implementation cadence**:
 Recent and upcoming focus areas include:
 - Self-Adapting Language Models  
-- Attention and Manifold-Constrained Learning  
-- Implicit Regularization in Diffusion Models  
+- Attention and Manifold-Constrained Learning   
 - Model Context Protocol (MCP) for agent interoperability  
 - Reinforcement-learning-based reasoning systems  
 - Hierarchical and multi-agent architectures  
