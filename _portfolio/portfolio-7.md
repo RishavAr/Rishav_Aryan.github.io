@@ -2,6 +2,7 @@
 title: "Superchip Optimization – Manufacturing and Distribution"
 collection: portfolio
 date: 2024-02-15
+share: false
 excerpt: "Operations research optimization for chip manufacturing and regional distribution."
 github: "https://github.com/RishavAr/Superchip-Optimization"
 tech: "Python, Gurobi"
