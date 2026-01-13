@@ -1,7 +1,19 @@
 ---
-title: "Portfolio item number 1"
-excerpt: "Short description of portfolio item number 1<br/><img src='/images/500x300.png'>"
+title: "iOS World Agents – Embodied AI Evaluation Framework"
 collection: portfolio
+date: 2025-01-01
+excerpt: "Embodied evaluation framework for LLM-driven agents executing real iOS actions in simulator environments."
+github: "https://github.com/RishavAr/ios_world_agents"
+tech: "Python, FastAPI, iOS Simulator (xcrun)"
 ---
 
-This is an item in your portfolio. It can be have images or nice text. If you name the file .md, it will be parsed as markdown. If you name the file .html, it will be parsed as HTML. 
+### 🔍 Overview
+Built an embodied simulation framework to evaluate LLM-driven agents performing **real iOS actions** inside simulator environments, enabling behavioral evaluation beyond static benchmarks.
+
+### 🚀 Key Contributions
+- Designed JSON-based task schemas covering **50+ multi-step tasks** across Safari, Maps, Calendar, Files, and Settings  
+- Orchestrated **GPT-4o, Gemini-1.5, Grok-2** for controlled cross-model behavioral comparison  
+- Implemented **Reflexion + TextGrad feedback loops**, improving task completion by **8–10%** without fine-tuning  
+
+### 🔗 Links
+- 💻 **Code:** [GitHub Repository](https://github.com/RishavAr/ios_world_agents)
