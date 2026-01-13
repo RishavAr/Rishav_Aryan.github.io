@@ -2,6 +2,7 @@
 title: "LLM-Powered Cybersecurity Evaluator"
 collection: portfolio
 date: 2025-08-10
+share: false
 excerpt: "Adversarial benchmarking framework for evaluating LLM security robustness."
 github: "https://github.com/RishavAr/AI_SECURITY_EVAL"
 tech: "Hugging Face, Transformers, PyTorch"
