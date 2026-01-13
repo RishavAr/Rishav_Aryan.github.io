@@ -52,18 +52,6 @@ The broader goal is to move beyond bandwidth-limited distillation and toward
 
 ---
 
-## 🚀 Startup Work — QSTACK
-Alongside research, I am building **QSTACK**, an early-stage systems startup
-focused on **intelligent orchestration of heterogeneous compute for machine
-learning workloads**.
-
-QSTACK investigates:
-- Runtime-aware CPU/GPU execution routing  
-- Cost- and latency-aware scheduling decisions  
-- Treating heterogeneous hardware as a unified execution substrate  
-
-This work is deeply systems-driven and complements my research by grounding
-theoretical insights in real execution constraints.
 
 ---
 
