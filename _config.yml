@@ -42,7 +42,7 @@ author:
 
     - label: "Google Scholar"
       icon: "ai ai-google-scholar"
-      url: "ADD_SCHOLAR_LINK_LATER"
+      url: "https://scholar.google.com/citations?user=7fyFPj0AAAAJ&hl=en&authuser=1"
 
   # Academic websites
   academia         : # URL
@@ -63,7 +63,6 @@ author:
 
   # Social media
   artstation       : # Username
-  bluesky          : "bsky.app" # Replace this with you Bluesky username
   facebook         : # Username
   flickr           : # Username
   foursquare       : # Username
@@ -72,7 +71,7 @@ author:
   keybase          : # Username
   instagram        : # Username
   lastfm           : # Username
-  linkedin         : # Username
+  linkedin         : "rishav-aryan"
   mastodon         : # URL
   medium           : # URL
   pinterest        : # Username
