@@ -1,64 +1,50 @@
 ---
-layout: archive
+layout: single
 title: "CV"
 permalink: /cv/
 author_profile: true
-redirect_from:
-  - /resume
 ---
 
-{% include base_path %}
+<div class="cv-download-links">
+  <a href="/files/cv.pdf" class="btn btn--primary">Download CV (PDF)</a>
+  <a href="/cv-json/" class="btn btn--inverse">View Web CV</a>
+</div>
 
-Education
-======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
 
-Work experience
-======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
-
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+## Education
+- **George Mason University** — MS, Data Analytics and Engineering (Aug 2023 – May 2025)
   
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+- **Vellore Institute of Technology** — B.Tech, ECE (Jun 2019 – Jul 2023)
 
-Publications
-======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
   
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
+
+## Experience
+- **Research Assistant, George Mason University** (Jul 2025 – Present)  
+- **Quantitative Research Intern, Wall Street Quants** (Jul 2024 – Oct 2024)  
+- **Machine Learning Intern, Foxmula** (May 2022 – Jul 2022)
+
   
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
+
+## Skills
+- **Languages:** Python, R, SQL 
+- **Frameworks/Tools:** PyTorch, TensorFlow, FAISS, FastAPI, Docker, AWS (Lambda, EC2, S3)  
+- **Multimodal & LLM Systems:**  Vision-Language Models, Embodied Agents, Retrieval-Augmented Generation (RAG), Semantic Search, AI Systems
+- **Mathematics & Theory:**  Linear Algebra, Probability, Statistics, Optimization
+- **Research Practice:**  Problem Framing, End-to-End ML Pipelines, Ablation Studies, Robustness Evaluation
+- **Techniques:** Transformers, Attention Mechanisms, Reinforcement Learning (PPO), VAEs, CNNs, GMMs, Representation Learning
+
+
+## Projects (Selected)
+- **iOS World Agents** — Embodied AI evaluation framework  
+- **LLM-Powered Cybersecurity Evaluator** — 31k+ adversarial dataset + benchmarking  
+- **NetGuard** — Agentic AI cybersecurity pipeline on AWS  
+- **ConfluBot** — RAG + FAISS Confluence assistant
+
+
+
+
   
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+
+
+
