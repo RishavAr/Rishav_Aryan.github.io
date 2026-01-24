@@ -50,19 +50,6 @@ This work explores:
 The broader goal is to move beyond bandwidth-limited distillation and toward
 **process-level knowledge transfer**.
 
----
-
-## 🔁 Weekly Research & Implementation Releases
-I maintain a **weekly research-to-implementation cadence**:
-Recent and upcoming focus areas include:
-- Self-Adapting Language Models  
-- Attention and Manifold-Constrained Learning   
-- Model Context Protocol (MCP) for agent interoperability  
-- Reinforcement-learning-based reasoning systems  
-- Hierarchical and multi-agent architectures  
-
-Each release emphasizes **mechanisms, mathematics, and system behavior**—
-not surface-level summaries.
 
 ---
 
